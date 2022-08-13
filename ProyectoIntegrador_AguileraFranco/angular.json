@@ -23,9 +23,12 @@
               "src/assets"
             ],
             "styles": [
-              "src/styles.css"
+              "src/styles.css",
+              "C:/Users/franc/Downloads/bootstrap-5.2.0-dist/bootstrap-5.2.0-dist/css/bootstrap.css"
             ],
-            "scripts": []
+            "scripts": [
+              "C:/Users/franc/Downloads/bootstrap-5.2.0-dist/bootstrap-5.2.0-dist/js/bootstrap.js"
+            ]
           },
           "configurations": {
             "production": {
@@ -97,5 +100,8 @@
         }
       }
     }
+  },
+  "cli": {
+    "analytics": "f912edf5-23b9-4189-9ab2-025b33b56252"
   }
 }
