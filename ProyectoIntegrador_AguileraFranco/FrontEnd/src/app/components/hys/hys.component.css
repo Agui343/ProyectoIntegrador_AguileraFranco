@@ -7,3 +7,8 @@ div{
 h1{
     color: rgb(221, 236, 13);
 }
+.circulo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}

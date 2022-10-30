@@ -1,18 +1,24 @@
+<div >
+    <button type="button" class="btn btn-dark" routerLink="/editacercade/1" *ngIf="isLogged">
+        Editar Persona
+    </button>
+</div>
+
+
 <div class="row">
+    
     <div class="col-xs-12 col-sm-2 col-md-2 col-lg-2"> 
-        <img src="../../../assets/d76a6c37-9e9c-42c4-aab7-faa959650e6b.jpg" 
+        <img src={{persona.img}} 
         class="img-fluid" id="fotodeperfil">
     </div>
     <div class="col-xs-12 col-sm-2 col-md-2 col-lg-2">
         <p  id="nombre">{{persona.nombre}} {{persona.apellido}}</p>
         <p> Full Stack Developer Jr y Tecnico en Producción Industrial y Automatizada </p>
     </div>
-    <div class="col-xs-12 col-sm-8 col-md-8 col-lg-8">
+    <div class="col-xs-12 col-sm-8 col-md-8 col-lg-8 descripcion">
         <span>
             <h1>Acerca de mi</h1>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                 Unde velit, quo cumque facere quia voluptates saepe quidem commodi nulla 
-                 fugit ea quod quisquam minus autem explicabo similique molestiae nesciunt laudantium.</p>
+            <p>{{persona.descripcion}}</p>
         </span>
     </div>
 
